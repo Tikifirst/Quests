@@ -23,6 +23,7 @@ import org.bukkit.entity.Player;
 public class ParticleProvider_v1_8_R1 extends ParticleProvider {
 
     private static Map<PreBuiltParticle, Object> PARTICLES = new HashMap<>();
+    private int Z = 2;
 
     static {
         PARTICLES.put(PreBuiltParticle.ENCHANT, EnumParticle.ENCHANTMENT_TABLE);
